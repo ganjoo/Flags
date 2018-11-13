@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{EFE5A7D6-EE6B-3D8C-0CF6-AFA28A9A26A9}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ColorChecker.cs">
+    <Files>
+      <File FileName="Assets/Script/GoogleMobileAdsDemoScript.cs" Line="77" Column="1" />
+      <File FileName="Assets/Script/FBLogin.cs" Line="4" Column="1" />
+      <File FileName="Assets/Script/UnityAdsExample.cs" Line="5" Column="1" />
+      <File FileName="Assets/ColorChecker.cs" Line="139" Column="32" />
+      <File FileName="Assets/Script/Score.cs" Line="32" Column="12" />
+      <File FileName="Assets/MaterialUI/Editor/TexturePostProcessor.cs" Line="41" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
