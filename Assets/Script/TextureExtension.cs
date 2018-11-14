@@ -70,8 +70,11 @@ public static class TextureExtension
 
     public static void FloodFillBorder(this Texture2D aTex, int aX, int aY, Color aFillColor, Color aBorderColor)
     {
+  
         int w = aTex.width;
         int h = aTex.height;
+        Debug.Log(w);
+        Debug.Log(h);
         Color[] colors = aTex.GetPixels();
         byte[] checkedPixels = new byte[colors.Length];
         Color refCol = aBorderColor;
@@ -117,5 +120,36 @@ public static class TextureExtension
             }
         }
         aTex.SetPixels(colors);
+    }
+
+    public static Texture2D GetTextureFromSprite(Sprite sprite)
+    {
+
+        Texture2D croppedTexture = new Texture2D((int)sprite.rect.width, (int)sprite.rect.height);
+        Color[] pixels = sprite.texture.GetPixels((int)sprite.textureRect.x,
+                                                (int)sprite.textureRect.y,
+                                                (int)sprite.textureRect.width,
+                                                (int)sprite.textureRect.height);
+        croppedTexture.SetPixels(pixels);
+        //TextureExtension.FloodFillArea(croppedTexture, 80, 80, Color.green);
+        croppedTexture.Apply();
+        return croppedTexture;
+    }
+
+    public static Texture2D textureFromSprite(Sprite sprite)
+    {
+        if (sprite.rect.width != sprite.texture.width)
+        {
+            Texture2D newText = new Texture2D((int)sprite.rect.width, (int)sprite.rect.height);
+            Color[] newColors = sprite.texture.GetPixels((int)sprite.textureRect.x,
+                                                         (int)sprite.textureRect.y,
+                                                         (int)sprite.textureRect.width,
+                                                         (int)sprite.textureRect.height);
+            newText.SetPixels(newColors);
+            newText.Apply();
+            return newText;
+        }
+        else
+            return sprite.texture;
     }
 }
