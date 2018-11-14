@@ -131,13 +131,14 @@ public static class TextureExtension
                                                 (int)sprite.textureRect.width,
                                                 (int)sprite.textureRect.height);
         croppedTexture.SetPixels(pixels);
-        //TextureExtension.FloodFillArea(croppedTexture, 80, 80, Color.green);
         croppedTexture.Apply();
         return croppedTexture;
     }
 
     public static Texture2D textureFromSprite(Sprite sprite)
     {
+
+
         if (sprite.rect.width != sprite.texture.width)
         {
             Texture2D newText = new Texture2D((int)sprite.rect.width, (int)sprite.rect.height);
