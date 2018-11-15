@@ -313,6 +313,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ColorStatus.cs" />
     <Compile Include="Assets\ExampleFolder\BitmapDrawing.cs" />
     <Compile Include="Assets\ExampleFolder\Example.cs" />
     <Compile Include="Assets\Fabric\Kits\Answers\Runtime\Answers.cs" />

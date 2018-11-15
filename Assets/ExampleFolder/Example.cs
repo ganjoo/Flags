@@ -9,7 +9,7 @@ public class Example : MonoBehaviour {
 	
 	void Start () {
 
-        //Material material = gameObject.GetComponent<.material;
+        //Material material = renderer.material;
         //Texture2D texture = new Texture2D(512,512, TextureFormat.RGB24, false);
         //texture.wrapMode = TextureWrapMode.Clamp;
         //material.SetTexture(0, texture);
