@@ -6,12 +6,14 @@ using UnityEngine.UI;
 public class ColorStatus : MonoBehaviour {
 
     static public Color current_color = Color.white;
-	// Use this for initialization
-	void Start () {
+    static public float flood_fill_tolerance = 0.3f;
+    // Use this for initialization
+    void Start () {
 
         GameObject selected_color = GameObject.Find("selected_color");
         selected_color.GetComponent<Image>().color = ColorStatus.current_color;
-	}
+       
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -38,4 +40,6 @@ public class ColorStatus : MonoBehaviour {
         print(button.name);
         Debug.Log("Object clicked " + ColorSprite.current_color);
     }
+
+   
 }

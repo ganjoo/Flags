@@ -375,6 +375,7 @@
     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+    <Compile Include="Assets\InitMap.cs" />
     <Compile Include="Assets\PointerUtils.cs" />
     <Compile Include="Assets\ProgressBar\Scene\Demo.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
