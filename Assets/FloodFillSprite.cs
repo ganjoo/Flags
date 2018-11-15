@@ -20,22 +20,44 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     }
     public void OnMouseDown()
     {
-        int pixelWidth = (int)gameObject.GetComponent<Image>().sprite.rect.width;
-        int pixelHeight = (int)gameObject.GetComponent<Image>().sprite.rect.height;
-        int unitsToPixels = (int)(pixelWidth / (gameObject.GetComponent<Image>().sprite.bounds.size.x * transform.localScale.x));
+        //int pixelWidth = (int)gameObject.GetComponent<Image>().sprite.rect.width;
+        //int pixelHeight = (int)gameObject.GetComponent<Image>().sprite.rect.height;
+        //int unitsToPixels = (int)(pixelWidth / (gameObject.GetComponent<Image>().sprite.bounds.size.x * transform.localScale.x));
+        //Texture2D tex = gameObject.GetComponent<Image>().sprite.texture;
+        //// assumes an orthographic camera
+        //Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //pos.z = transform.position.z;
+        //pos = transform.InverseTransformPoint(pos);
+
+        //int xPixel  = Mathf.RoundToInt(pos.x * unitsToPixels);
+        //int yPixel = Mathf.RoundToInt(pos.y * unitsToPixels);
+
+        //Color32 color32 = tex.GetPixel(xPixel, yPixel);
+        //Debug.Log("(" + xPixel + ", " + yPixel + ")  " + color32);
+
+
         Texture2D tex = gameObject.GetComponent<Image>().sprite.texture;
-        // assumes an orthographic camera
-        Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        pos.z = transform.position.z;
-        pos = transform.InverseTransformPoint(pos);
 
-        int xPixel  = Mathf.RoundToInt(pos.x * unitsToPixels);
-        int yPixel = Mathf.RoundToInt(pos.y * unitsToPixels);
+        Rect r = gameObject.GetComponent<RectTransform>().rect;
+        Vector2 localPoint;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(gameObject.GetComponent<RectTransform>(), Input.mousePosition, null, out localPoint);
 
-        Color32 color32 = tex.GetPixel(xPixel, yPixel);
-        Debug.Log("(" + xPixel + ", " + yPixel + ")  " + color32);
+        int px = Mathf.Clamp(0, (int)(((localPoint.x - r.x) * tex.width) / r.width), tex.width);
+        int py = Mathf.Clamp(0, (int)(((localPoint.y - r.y) * tex.height) / r.height), tex.height);
+
+        Color32 col = tex.GetPixel(px, py);
+        Color32 color32 = tex.GetPixel(px, py);
+        Debug.Log("(LocalPoint X/Y:" + localPoint.x + ", " + localPoint.y + ")  ");
+        Debug.Log("(Rect X/Y:" + r.x + ", " + r.y + ")  ");
+        Debug.Log("(Rect W/H:" + r.width + ", " + r.height + ")  ");
+
+
+
+        // Debug.Log("(Texture Width/Height:" + tex.width + ", " + tex.height + ")  ");
+        //Debug.Log("(" + px + ", " + py + ")  " + color32);
+
         Texture2D texture = TextureExtension.textureFromSprite(gameObject.GetComponent<Image>().sprite);
-        texture.FloodFillArea(xPixel, yPixel, Color.black);
+        texture.FloodFillArea(px, py, Color.red);
         texture.Apply();
     }
     //Detect current clicks on the GameObject (the one with the script attached)
