@@ -11,6 +11,8 @@ public class ColorSprite : MonoBehaviour {
     public static ObjColoredCallback objColored;
 
     public Color c;
+   
+
     // Use this for initialization
 
     public void Start()

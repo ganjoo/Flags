@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-flags-15.0.1.aar/81a27636d707a93472b7dd88a9bb4518/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="04a44d20bec92359951d025757218220f93b5d4b">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-base-15.0.1.aar/c861087b2c05eba95160f913eee73bb6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="1efcd359c3e2009ea2398af967f56210599fb652">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/libs/android.arch.core.common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="15b84ade6db5a236a014727607b1d1fd9d3c5353">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="870da9607f0f96f60221c2959e9cb3ce0ba634ed">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/libs/beta-1.2.10.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0c005cf2a2c9a42b661357c88ff518b663892098">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8d813c05361147f6f515f749df19223cd6256314">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-api-16.0.1.aar/518ef961ba6079dcde3495692f2f62fe/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0ab9ee745d207914473f5e796e172a106edb1e57">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-base-16.0.2.aar/750ce4f484d3cab8086cc246593411ef/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="589cf4763170e413dadd9f92e04aa8a7612d9076">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="363d9fcc0ff7654f44610af4c48aa2c5145c556b">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="08039363ba811a72f27033a9288bcb35605a7372">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ff9f9e9d4812d6a9a7132ebda8bad77797387abb">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/libs/feature.addressbook.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0132328947491d24cd202ae454ba709a70f6eeec">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-interop-16.0.0.aar/0ec5d960afbedcb8a2c86d935171d5c7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="efe9d64183cd00b0cd3d876383ed177e6b37398c">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/common_lib/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="34bbc53c200b162f7d4fc8d74dafcbbdefb0a92d">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/common_lib/libs/com-google-code-gson_gson.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/libs/answers-1.4.3.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="4ee234569b5c8732cad0632b09c043d25291f456">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a4bf0aeea3f5f93b257c9c817ef936ea20ffa64d">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="59791280ffd12fcdf51e5e182afc53abb0a02c71">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/libs/fabric-init.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="fae0f3b6502caee90a72644cadf355d6ea73fce5">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/libs/fabric-1.4.4.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="58e00c2c80a92b161c84cba53acb4477979e67b9">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/libs/android.arch.lifecycle.common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-stats-15.0.1.aar/18fa8308bc5ac79a988ecd022ca9f61f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c1e9d140d3260619ce2fa991d30b14b531d61dec">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="918c09988455bcf0bdacc84d31c2866325621415">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics-wrapper/libs/crashlytics-wrapper.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ddd8fbb721de5988420d33397513e85757ec8bce">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-17.0.0.aar/b47b5bcb8bf886120c086b43a0813b95/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="930a2efcf04828abbc02a1624235f271dd3ebd4e">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b5a03c01babdb2a80f770eb5880d0467ec6415d0">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics-wrapper/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a2bb9375c561318c4eae252dee3fe8babf03c44e">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e6fff1d276738bb82cfc131c49d2e72a47dfd0aa">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="d8fe6d91310b54734f454dd490c3c869f6290576">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/GoogleMobileAdsPlugin/libs/unity-plugin-library.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="db70e6f904978a2efdf6f10ab862c9f48afb78b2">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/GoogleMobileAdsPlugin/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="d367a01354825b9cdb3acadb1f8c2ea5df2bf431">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-interop-16.0.0.aar/d339aade9c8d0d8c1a192edd85c4f86f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2a69972573cb7e5cc6b8652bacf981e82b68ff71">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="afca5b6a0d29edc8419af23c2626feeef3c72ef2">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/Firebase/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="40ff3be403f28768b5e51eb3a76547170dd88e95">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="1e224748cbf54c34eac0bca6376922468b786775">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="899066780f9e638a5ff467fe1b01cb77fa0a8194">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/libs/com.android.support.support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/libs/feature.externallibrary.shortcutbadger.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="7598cd1e80ae3dc5884a696b75e48cbacd958570">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/libs/crashlytics-core-2.6.4.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3412b8c256ecf4b6a4807ca96f797a704d724a93">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-tasks-15.0.1.aar/5d47601a3f1604d990e1e4f539d74008/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="4d4d98a0428b2e620e6b4a228ef9f7cb2f0debd2">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/libs/RuntimePermissions.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ddf7f447adeaa54764f2f7a5b48b69dbd7288232">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-connection-16.0.1.aar/54b0a466a647c7f17d624af782c67614/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3577bd590bf158cae5c219b0b1a89963c3d9306a">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-15.0.1.aar/9e46cc291861b21578cf15a42d33dfb8/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ad50ad7e41dff89974582cd87e2543b8eb15f760">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/libs/crashlytics-2.9.5.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ef8109189901ec7e9dd49aa71b28def416715d8e">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ebe9115a8c3cb248ba6bd2fb5546ab72dae11a88">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-gass-15.0.1.aar/ca8a52062fa133f22f0dda71d463fa8c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="37028eeb32233dad5092a550b7d32e22393515d1">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-identifier-15.0.1.aar/76359d7727115dd822cd5b5d8c485740/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="63413895dce50f6123807d1db2274a1982a34194">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/libs/feature.sharing.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="45667bf97dec9d5e15571aec9b8be0ee199ff4c0">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="76a618dcfc50e7d92ff03f234796b84533323190">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/libs/androidutility.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="1190d5e8cf395f539eb46656bc20dfbf1c1c4824">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/libs/nativeplugins.core.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a3462cd104f849530ad2d3b1f2bce8f28fa2d0a3">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="12c28e89a7ca29cdfa769155ae0b161c808155f9">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-16.0.1.aar/ac6a9597226e03226e1dcc449331d8c2/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c05262d45e7720198b120bbb5463f78ad345baa4">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/libs/feature.reachability.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="1ea486ee5449a5347920cce69010b2f0c0c97115">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-collection-15.0.1.aar/297da29432758fe9fd1ab240c29f3711/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="28.0.3"
+        sha1="d757f615613c93119776641df7c3537d63ac78f4">
+        <dex dex="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/preDex/release/39.jar" />
+    </item>
+
+</items>

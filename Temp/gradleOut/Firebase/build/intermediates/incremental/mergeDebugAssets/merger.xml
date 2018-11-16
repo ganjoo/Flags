@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/Firebase/assets"/><source path="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/Firebase/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/sheerinaseem/sources/Flags/Temp/gradleOut/Firebase/src/debug/assets"/></dataSet></merger>

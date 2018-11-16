@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:4:5-39
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:6:5-30
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:7:5-43
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:7:5-43
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:7:5-43
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:7:15-40
+application
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/AndroidManifest.xml:8:5-9:19

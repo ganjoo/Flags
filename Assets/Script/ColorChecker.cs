@@ -14,6 +14,8 @@ public class ColorChecker : MonoBehaviour {
     public GameObject popup;
     public GameObject settingPop;
 
+    public Transform levelCompleteEffect;
+
 
 
     // Use this for initialization
@@ -86,11 +88,12 @@ public class ColorChecker : MonoBehaviour {
             Debug.Log("DONE COLORED");
             if (next_level.Length == 0)
             {
+                Instantiate(levelCompleteEffect);
 
-                Debug.Log("Level load requested for " + name);
-#pragma warning disable CS0618 // Type or member is obsolete
-                Application.LoadLevel("Menu");
-#pragma warning restore CS0618 // Type or member is obsolete
+                //                Debug.Log("Level load requested for " + name);
+                //#pragma warning disable CS0618 // Type or member is obsolete
+                //                Application.LoadLevel("Menu");
+                //#pragma warning restore CS0618 // Type or member is obsolete
             }
             else
             {                //Load the prefab specified in the next level
@@ -99,6 +102,9 @@ public class ColorChecker : MonoBehaviour {
                 // next.SetActive(true);
               
                 ColorSprite.objColored -= CheckColorStatus;
+
+              
+
                 levelCompleted();
               
 

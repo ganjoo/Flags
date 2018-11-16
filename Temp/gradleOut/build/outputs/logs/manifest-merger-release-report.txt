@@ -1,0 +1,834 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:17:1-30:12
+MERGED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:17:1-28:12
+MERGED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.cardview-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/AndroidManifest.xml:17:1-28:12
+MERGED from [:com.android.support.customtabs-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/AndroidManifest.xml:17:1-28:12
+MERGED from [:com.android.support.support-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-core-ui-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-core-utils-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-fragment-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-media-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-v4-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/AndroidManifest.xml:17:1-28:12
+MERGED from [:com.google.android.gms.play-services-ads-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-15.0.1.aar/9e46cc291861b21578cf15a42d33dfb8/AndroidManifest.xml:17:1-25:12
+MERGED from [:com.google.android.gms.play-services-ads-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-base-15.0.1.aar/c861087b2c05eba95160f913eee73bb6/AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.android.gms.play-services-ads-identifier-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-identifier-15.0.1.aar/76359d7727115dd822cd5b5d8c485740/AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:17:1-36:12
+MERGED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:17:1-29:12
+MERGED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:17:1-28:12
+MERGED from [:com.google.android.gms.play-services-flags-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-flags-15.0.1.aar/81a27636d707a93472b7dd88a9bb4518/AndroidManifest.xml:17:1-22:12
+MERGED from [:com.google.android.gms.play-services-gass-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-gass-15.0.1.aar/ca8a52062fa133f22f0dda71d463fa8c/AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.android.gms.play-services-measurement-api-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-api-16.0.1.aar/518ef961ba6079dcde3495692f2f62fe/AndroidManifest.xml:17:1-25:12
+MERGED from [:com.google.android.gms.play-services-measurement-base-16.0.2:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-base-16.0.2.aar/750ce4f484d3cab8086cc246593411ef/AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.android.gms.play-services-stats-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-stats-15.0.1.aar/18fa8308bc5ac79a988ecd022ca9f61f/AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.android.gms.play-services-tasks-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-tasks-15.0.1.aar/5d47601a3f1604d990e1e4f539d74008/AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:17:1-55:12
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:17:1-40:12
+MERGED from [:com.google.firebase.firebase-app-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-app-unity-5.3.0.aar/e67b071d10a1bdeb509968ddc3a54f48/AndroidManifest.xml:3:1-8:12
+MERGED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:17:1-38:12
+MERGED from [:com.google.firebase.firebase-auth-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-interop-16.0.0.aar/0ec5d960afbedcb8a2c86d935171d5c7/AndroidManifest.xml:2:1-10:12
+MERGED from [:com.google.firebase.firebase-auth-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-unity-5.3.0.aar/a8238ec25fa815a1348094d4ca61f2fc/AndroidManifest.xml:3:1-8:12
+MERGED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:2:1-7:12
+MERGED from [:com.google.firebase.firebase-core-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-core-16.0.3.aar/8afb2a52e02e37ab855e34d940e94c7f/AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.firebase.firebase-database-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-16.0.1.aar/ac6a9597226e03226e1dcc449331d8c2/AndroidManifest.xml:2:1-8:12
+MERGED from [:com.google.firebase.firebase-database-collection-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-collection-15.0.1.aar/297da29432758fe9fd1ab240c29f3711/AndroidManifest.xml:2:1-8:12
+MERGED from [:com.google.firebase.firebase-database-connection-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-connection-16.0.1.aar/54b0a466a647c7f17d624af782c67614/AndroidManifest.xml:2:1-10:12
+MERGED from [:com.google.firebase.firebase-database-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-unity-5.3.0.aar/0718343d0973dccf763b9b3ce7c17bec/AndroidManifest.xml:3:1-8:12
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:17:1-46:12
+MERGED from [:com.google.firebase.firebase-iid-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-interop-16.0.0.aar/d339aade9c8d0d8c1a192edd85c4f86f/AndroidManifest.xml:2:1-10:12
+MERGED from [:com.google.firebase.firebase-measurement-connector-17.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-17.0.0.aar/b47b5bcb8bf886120c086b43a0813b95/AndroidManifest.xml:17:1-25:12
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:17:1-34:12
+MERGED from [:Firebase] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/Firebase/build/intermediates/manifests/full/release/AndroidManifest.xml:10:1-19:12
+MERGED from [:GoogleMobileAdsPlugin] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/GoogleMobileAdsPlugin/build/intermediates/manifests/full/release/AndroidManifest.xml:7:1-19:12
+MERGED from [:answers] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:beta] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:common_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/common_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:crashlytics] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:crashlytics-wrapper] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics-wrapper/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-28:12
+MERGED from [:fabric-init] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:3:1-70:12
+MERGED from [:voxelbusters_utility_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:70-100
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:172-197
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:101-147
+	xmlns:android
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:148-171
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:2:198-238
+supports-screens
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:3:135-160
+application
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:4:3-26:17
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:24:5-28:19
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:24:5-28:19
+MERGED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.cardview-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.android.support.cardview-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.android.support.customtabs-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.android.support.customtabs-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.android.support.support-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-ui-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-ui-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-utils-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-utils-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-fragment-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-fragment-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-media-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-media-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-v4-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-v4-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.android.support.support-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-ads-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-base-15.0.1.aar/c861087b2c05eba95160f913eee73bb6/AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-ads-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-base-15.0.1.aar/c861087b2c05eba95160f913eee73bb6/AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-ads-identifier-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-identifier-15.0.1.aar/76359d7727115dd822cd5b5d8c485740/AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-ads-identifier-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-identifier-15.0.1.aar/76359d7727115dd822cd5b5d8c485740/AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:26:5-34:19
+MERGED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:26:5-34:19
+MERGED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-gass-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-gass-15.0.1.aar/ca8a52062fa133f22f0dda71d463fa8c/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-gass-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-gass-15.0.1.aar/ca8a52062fa133f22f0dda71d463fa8c/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-measurement-api-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-api-16.0.1.aar/518ef961ba6079dcde3495692f2f62fe/AndroidManifest.xml:22:5-23:19
+MERGED from [:com.google.android.gms.play-services-measurement-api-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-api-16.0.1.aar/518ef961ba6079dcde3495692f2f62fe/AndroidManifest.xml:22:5-23:19
+MERGED from [:com.google.android.gms.play-services-measurement-base-16.0.2:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-base-16.0.2.aar/750ce4f484d3cab8086cc246593411ef/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-measurement-base-16.0.2:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-base-16.0.2.aar/750ce4f484d3cab8086cc246593411ef/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-stats-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-stats-15.0.1.aar/18fa8308bc5ac79a988ecd022ca9f61f/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-stats-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-stats-15.0.1.aar/18fa8308bc5ac79a988ecd022ca9f61f/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-tasks-15.0.1.aar/5d47601a3f1604d990e1e4f539d74008/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-tasks-15.0.1.aar/5d47601a3f1604d990e1e4f539d74008/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:28:5-53:19
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:28:5-53:19
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:28:5-38:19
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:28:5-38:19
+MERGED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:22:5-36:19
+MERGED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:22:5-36:19
+MERGED from [:com.google.firebase.firebase-auth-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-interop-16.0.0.aar/0ec5d960afbedcb8a2c86d935171d5c7/AndroidManifest.xml:7:5-8:19
+MERGED from [:com.google.firebase.firebase-auth-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-interop-16.0.0.aar/0ec5d960afbedcb8a2c86d935171d5c7/AndroidManifest.xml:7:5-8:19
+MERGED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:4:3-6:17
+MERGED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:4:3-6:17
+MERGED from [:com.google.firebase.firebase-core-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-core-16.0.3.aar/8afb2a52e02e37ab855e34d940e94c7f/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.firebase.firebase-core-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-core-16.0.3.aar/8afb2a52e02e37ab855e34d940e94c7f/AndroidManifest.xml:7:5-20
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:26:3-45:17
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:26:3-45:17
+MERGED from [:com.google.firebase.firebase-iid-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-interop-16.0.0.aar/d339aade9c8d0d8c1a192edd85c4f86f/AndroidManifest.xml:7:5-8:19
+MERGED from [:com.google.firebase.firebase-iid-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-interop-16.0.0.aar/d339aade9c8d0d8c1a192edd85c4f86f/AndroidManifest.xml:7:5-8:19
+MERGED from [:com.google.firebase.firebase-measurement-connector-17.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-17.0.0.aar/b47b5bcb8bf886120c086b43a0813b95/AndroidManifest.xml:22:5-23:19
+MERGED from [:com.google.firebase.firebase-measurement-connector-17.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-17.0.0.aar/b47b5bcb8bf886120c086b43a0813b95/AndroidManifest.xml:22:5-23:19
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:26:5-32:19
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:26:5-32:19
+MERGED from [:GoogleMobileAdsPlugin] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/GoogleMobileAdsPlugin/build/intermediates/manifests/full/release/AndroidManifest.xml:16:5-17:19
+MERGED from [:GoogleMobileAdsPlugin] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/GoogleMobileAdsPlugin/build/intermediates/manifests/full/release/AndroidManifest.xml:16:5-17:19
+MERGED from [:answers] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:answers] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:beta] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:beta] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:common_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/common_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-12:19
+MERGED from [:common_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/common_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-12:19
+MERGED from [:crashlytics] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:crashlytics] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:crashlytics-wrapper] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics-wrapper/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-8:19
+MERGED from [:crashlytics-wrapper] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics-wrapper/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-8:19
+MERGED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-26:19
+MERGED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-26:19
+MERGED from [:fabric-init] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:fabric-init] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-10:19
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:44:5-68:19
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:44:5-68:19
+MERGED from [:voxelbusters_utility_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-12:19
+MERGED from [:voxelbusters_utility_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:4:58-90
+	android:icon
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:4:208-239
+	android:banner
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:4:170-207
+	android:theme
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:4:16-57
+	android:isGame
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:4:148-169
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:4:91-147
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:5:5-12:16
+	android:screenOrientation
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:5:102-138
+	android:label
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:5:69-101
+	android:launchMode
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:5:139-170
+	android:hardwareAccelerated
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:5:353-388
+	android:configChanges
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:5:171-352
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:5:15-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:6:7-10:23
+action#android.intent.action.MAIN
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:8:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:9:9-78
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:9:19-75
+meta-data#unityplayer.UnityActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:11:7-82
+	android:value
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:11:59-79
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:11:18-58
+activity#com.facebook.unity.FBUnityLoginActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:13:5-301
+	android:configChanges
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:13:70-227
+	android:theme
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:13:228-298
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:13:15-69
+activity#com.facebook.unity.FBUnityDialogsActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:14:5-303
+	android:configChanges
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:14:72-229
+	android:theme
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:14:230-300
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:14:15-71
+activity#com.facebook.unity.FBUnityAppLinkActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:15:5-98
+	android:exported
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:15:72-95
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:15:15-71
+activity#com.facebook.unity.FBUnityDeepLinkingActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:16:5-102
+	android:exported
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:16:76-99
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:16:15-75
+activity#com.facebook.unity.FBUnityGameRequestActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:17:15-75
+activity#com.facebook.unity.FBUnityCreateGameGroupActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:18:5-82
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:18:15-79
+activity#com.facebook.unity.FBUnityJoinGameGroupActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:19:15-77
+activity#com.facebook.unity.AppInviteDialogActivity
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:20:15-72
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:21:5-98
+	android:value
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:21:62-95
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:21:16-61
+provider#com.facebook.FacebookContentProvider
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:22:5-171
+	android:authorities
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:22:67-144
+	android:exported
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:22:145-168
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:22:15-66
+meta-data#unity.build-id
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:23:5-101
+	android:value
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:23:46-98
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:23:16-45
+meta-data#unity.splash-mode
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:24:5-69
+	android:value
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:24:49-66
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:24:16-48
+meta-data#unity.splash-enable
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:25:5-74
+	android:value
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:25:51-71
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:25:16-50
+uses-feature#0x00020000
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:27:3-52
+	android:glEsVersion
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:27:17-49
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:28:3-65
+MERGED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:23:5-67
+MERGED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-database-connection-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-connection-16.0.1.aar/54b0a466a647c7f17d624af782c67614/AndroidManifest.xml:8:5-67
+MERGED from [:com.google.firebase.firebase-database-connection-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-connection-16.0.1.aar/54b0a466a647c7f17d624af782c67614/AndroidManifest.xml:8:5-67
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:20:3-65
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:20:3-65
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:22:5-67
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:22:5-67
+MERGED from [:answers] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:answers] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:beta] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:beta] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:crashlytics] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:crashlytics] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:fabric-init] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:fabric-init] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-67
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:42:5-67
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:42:5-67
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:28:20-62
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:29:3-88
+	android:required
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:29:61-85
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:29:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:30:3-99
+	android:required
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:30:72-96
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:30:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:31:3-108
+	android:required
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:31:81-105
+	android:name
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml:31:17-80
+uses-sdk
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:20:5-22:41
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:20:5-22:41
+MERGED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:21:5-23:78
+MERGED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:21:5-23:78
+MERGED from [:com.android.support.cardview-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.cardview-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.customtabs-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.customtabs-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-ui-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-ui-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-utils-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/AndroidManifest.xml:21:5-23:61
+MERGED from [:com.android.support.support-core-utils-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/AndroidManifest.xml:21:5-23:61
+MERGED from [:com.android.support.support-fragment-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/AndroidManifest.xml:21:5-23:60
+MERGED from [:com.android.support.support-fragment-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/AndroidManifest.xml:21:5-23:60
+MERGED from [:com.android.support.support-media-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/AndroidManifest.xml:21:5-23:63
+MERGED from [:com.android.support.support-media-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/AndroidManifest.xml:21:5-23:63
+MERGED from [:com.android.support.support-v4-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/AndroidManifest.xml:21:5-23:54
+MERGED from [:com.android.support.support-v4-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/AndroidManifest.xml:21:5-23:54
+MERGED from [:com.android.support.support-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/AndroidManifest.xml:20:5-44
+MERGED from [:com.android.support.support-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-ads-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-15.0.1.aar/9e46cc291861b21578cf15a42d33dfb8/AndroidManifest.xml:21:5-23:62
+MERGED from [:com.google.android.gms.play-services-ads-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-15.0.1.aar/9e46cc291861b21578cf15a42d33dfb8/AndroidManifest.xml:21:5-23:62
+MERGED from [:com.google.android.gms.play-services-ads-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-base-15.0.1.aar/c861087b2c05eba95160f913eee73bb6/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-ads-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-base-15.0.1.aar/c861087b2c05eba95160f913eee73bb6/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-ads-identifier-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-identifier-15.0.1.aar/76359d7727115dd822cd5b5d8c485740/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-ads-identifier-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-identifier-15.0.1.aar/76359d7727115dd822cd5b5d8c485740/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-flags-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-flags-15.0.1.aar/81a27636d707a93472b7dd88a9bb4518/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-flags-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-flags-15.0.1.aar/81a27636d707a93472b7dd88a9bb4518/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-gass-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-gass-15.0.1.aar/ca8a52062fa133f22f0dda71d463fa8c/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-gass-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-gass-15.0.1.aar/ca8a52062fa133f22f0dda71d463fa8c/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-measurement-api-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-api-16.0.1.aar/518ef961ba6079dcde3495692f2f62fe/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-measurement-api-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-api-16.0.1.aar/518ef961ba6079dcde3495692f2f62fe/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-measurement-base-16.0.2:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-base-16.0.2.aar/750ce4f484d3cab8086cc246593411ef/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-measurement-base-16.0.2:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-measurement-base-16.0.2.aar/750ce4f484d3cab8086cc246593411ef/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-stats-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-stats-15.0.1.aar/18fa8308bc5ac79a988ecd022ca9f61f/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-stats-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-stats-15.0.1.aar/18fa8308bc5ac79a988ecd022ca9f61f/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-tasks-15.0.1.aar/5d47601a3f1604d990e1e4f539d74008/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-tasks-15.0.1.aar/5d47601a3f1604d990e1e4f539d74008/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-app-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-app-unity-5.3.0.aar/e67b071d10a1bdeb509968ddc3a54f48/AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-app-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-app-unity-5.3.0.aar/e67b071d10a1bdeb509968ddc3a54f48/AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-auth-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-interop-16.0.0.aar/0ec5d960afbedcb8a2c86d935171d5c7/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-auth-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-interop-16.0.0.aar/0ec5d960afbedcb8a2c86d935171d5c7/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-auth-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-unity-5.3.0.aar/a8238ec25fa815a1348094d4ca61f2fc/AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-auth-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-unity-5.3.0.aar/a8238ec25fa815a1348094d4ca61f2fc/AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:3:3-72
+MERGED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:3:3-72
+MERGED from [:com.google.firebase.firebase-core-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-core-16.0.3.aar/8afb2a52e02e37ab855e34d940e94c7f/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-core-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-core-16.0.3.aar/8afb2a52e02e37ab855e34d940e94c7f/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-database-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-16.0.1.aar/ac6a9597226e03226e1dcc449331d8c2/AndroidManifest.xml:6:5-44
+MERGED from [:com.google.firebase.firebase-database-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-16.0.1.aar/ac6a9597226e03226e1dcc449331d8c2/AndroidManifest.xml:6:5-44
+MERGED from [:com.google.firebase.firebase-database-collection-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-collection-15.0.1.aar/297da29432758fe9fd1ab240c29f3711/AndroidManifest.xml:6:5-44
+MERGED from [:com.google.firebase.firebase-database-collection-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-collection-15.0.1.aar/297da29432758fe9fd1ab240c29f3711/AndroidManifest.xml:6:5-44
+MERGED from [:com.google.firebase.firebase-database-connection-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-connection-16.0.1.aar/54b0a466a647c7f17d624af782c67614/AndroidManifest.xml:6:5-44
+MERGED from [:com.google.firebase.firebase-database-connection-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-connection-16.0.1.aar/54b0a466a647c7f17d624af782c67614/AndroidManifest.xml:6:5-44
+MERGED from [:com.google.firebase.firebase-database-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-unity-5.3.0.aar/0718343d0973dccf763b9b3ce7c17bec/AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-database-unity-5.3.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-database-unity-5.3.0.aar/0718343d0973dccf763b9b3ce7c17bec/AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:18:3-42
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:18:3-42
+MERGED from [:com.google.firebase.firebase-iid-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-interop-16.0.0.aar/d339aade9c8d0d8c1a192edd85c4f86f/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-iid-interop-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-interop-16.0.0.aar/d339aade9c8d0d8c1a192edd85c4f86f/AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-measurement-connector-17.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-17.0.0.aar/b47b5bcb8bf886120c086b43a0813b95/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-measurement-connector-17.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-17.0.0.aar/b47b5bcb8bf886120c086b43a0813b95/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:20:5-44
+MERGED from [:Firebase] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/Firebase/build/intermediates/manifests/full/release/AndroidManifest.xml:15:5-17:40
+MERGED from [:Firebase] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/Firebase/build/intermediates/manifests/full/release/AndroidManifest.xml:15:5-17:40
+MERGED from [:GoogleMobileAdsPlugin] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/GoogleMobileAdsPlugin/build/intermediates/manifests/full/release/AndroidManifest.xml:12:5-14:41
+MERGED from [:GoogleMobileAdsPlugin] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/GoogleMobileAdsPlugin/build/intermediates/manifests/full/release/AndroidManifest.xml:12:5-14:41
+MERGED from [:answers] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:answers] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/answers/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:beta] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:beta] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/beta/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:common_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/common_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:common_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/common_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:crashlytics] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:crashlytics] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:crashlytics-wrapper] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics-wrapper/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:crashlytics-wrapper] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/crashlytics-wrapper/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:fabric-init] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:fabric-init] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric-init/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-47
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:8:5-10:41
+MERGED from [:voxelbusters_utility_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:voxelbusters_utility_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/voxelbusters_utility_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		ADDED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		MERGED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		MERGED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		MERGED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		MERGED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		MERGED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		MERGED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+		INJECTED from /Users/sheerinaseem/sources/Flags/Temp/gradleOut/src/main/AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/android.arch.lifecycle.runtime-1.0.0.aar/3ed40dd87fc7dab378c57a6cb8d7eec4/AndroidManifest.xml:26:13-58
+meta-data#android.support.VERSION
+ADDED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:23:9-25:38
+MERGED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.appcompat-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.appcompat-v7-26.1.0.aar/f03c29fdc75555aeafaf025584268259/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.cardview-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/AndroidManifest.xml:23:9-25:38
+MERGED from [:com.android.support.cardview-v7-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.cardview-v7-26.1.0.aar/3ab34b6698d497441e1170cf40c8de3d/AndroidManifest.xml:23:9-25:38
+MERGED from [:com.android.support.customtabs-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/AndroidManifest.xml:23:9-25:38
+MERGED from [:com.android.support.customtabs-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.customtabs-26.1.0.aar/a56b39b8203aa31f94bdc765091f482f/AndroidManifest.xml:23:9-25:38
+MERGED from [:com.android.support.support-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-compat-26.1.0.aar/7b3fa1c14d92c9d7bb7448e28c53049f/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-ui-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-ui-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-ui-26.1.0.aar/566d13162d2fdff4a7f358d93f383f78/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-utils-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-utils-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-core-utils-26.1.0.aar/c9ae8c9501dd2d56cf2317a08a8385c7/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-fragment-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-fragment-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-fragment-26.1.0.aar/eeb4829a4515b23f91dce375c592c184/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-media-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-media-compat-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-media-compat-26.1.0.aar/059c690bea588b4200a36f1cc113fb91/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-v4-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-v4-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-v4-26.1.0.aar/e95d8dfb4e1fc618472de1f5e3c47941/AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/AndroidManifest.xml:23:9-25:38
+MERGED from [:com.android.support.support-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.support-vector-drawable-26.1.0.aar/d475dee92bea630b803f79cab151a950/AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [:com.android.support.animated-vector-drawable-26.1.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.android.support.animated-vector-drawable-26.1.0.aar/aef8b3854a006e9af52c184d2cd7bdb0/AndroidManifest.xml:24:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:19:3-77
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:19:3-77
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:23:5-79
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:23:5-79
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:15:5-79
+MERGED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:24:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [:com.google.android.gms.play-services-ads-lite-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-ads-lite-15.0.1.aar/ecdb54bd445e6251139bf49d4b110402/AndroidManifest.xml:30:13-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-base-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-base-15.0.1.aar/3de348328c1e420176b39c71c70f2078/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [:com.google.android.gms.play-services-basement-15.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.android.gms.play-services-basement-15.0.1.aar/5a175c7982491d6771432975308eb77e/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:21:3-66
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:21:3-66
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:24:5-68
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:26:5-110
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:26:5-110
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:34:9-42:20
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:29:9-37:20
+MERGED from [:com.google.firebase.firebase-analytics-impl-16.2.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-impl-16.2.1.aar/d93f1504c0b3dab7fa9a767d85047d90/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-analytics-16.0.3.aar/c705117995c6437e37792b9a9a70b3d0/AndroidManifest.xml:49:13-87
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:31:9-35:19
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:27:5-29:15
+MERGED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:27:5-29:15
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:27:9-31:19
+MERGED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:27:9-31:19
+	android:name
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [:com.google.firebase.firebase-auth-16.0.3:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-auth-16.0.3.aar/e2ffd1c7a37919ae80cd294067ac1bc9/AndroidManifest.xml:33:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:5:5-200
+	android:authorities
+		ADDED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:5:80-148
+	android:exported
+		ADDED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:5:149-173
+	android:initOrder
+		ADDED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:5:174-197
+	android:name
+		ADDED from [:com.google.firebase.firebase-common-16.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-common-16.0.1.aar/02fde2fcb39ca2e5d4365a8c5054be8f/AndroidManifest.xml:5:15-79
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:23:3-80
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:23:20-77
+permission#com.frugalplay.barfitales.permission.C2D_MESSAGE
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:24:3-117
+	android:protectionLevel
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:24:79-114
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:24:15-78
+uses-permission#com.frugalplay.barfitales.permission.C2D_MESSAGE
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:25:3-86
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:25:20-83
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:28:7-166
+	android:value
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:28:98-163
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:28:18-97
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:30:5-35:16
+	android:exported
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:30:81-104
+	android:permission
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:30:105-165
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:30:15-80
+intent-filter#com.frugalplay.barfitales+com.google.android.c2dm.intent.RECEIVE
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:31:7-34:23
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:32:9-73
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:32:17-70
+category#com.frugalplay.barfitales
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:33:9-62
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:33:19-59
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:40:5-44:15
+	android:exported
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:40:79-102
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:40:14-78
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:41:7-43:23
+	android:priority
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:41:22-45
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:42:9-72
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-16.0.0:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-iid-16.0.0.aar/52ed674fbc718b75f0fab6f9c5fbd601/AndroidManifest.xml:42:17-69
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [:com.google.firebase.firebase-measurement-connector-impl-17.0.1:] /Users/sheerinaseem/.gradle/caches/transforms-1/files-1.1/com.google.firebase.firebase-measurement-connector-impl-17.0.1.aar/53f84060d8c405c140dd893ba08fd102/AndroidManifest.xml:29:17-139
+meta-data#io.fabric.ApiKey
+ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:8:9-10:72
+	android:value
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:10:13-69
+	android:name
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:9:13-44
+meta-data#io.fabric.unity.crashlytics.version
+ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:11:9-13:37
+	android:value
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:13:13-34
+	android:name
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:12:13-63
+meta-data#io.fabric.crashlytics.qualified
+ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:14:9-16:67
+	android:value
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:16:13-64
+	android:name
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:15:13-59
+meta-data#io.fabric.crashlytics.unqualified
+ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:17:9-19:43
+	android:value
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:19:13-40
+	android:name
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:18:13-61
+meta-data#io.fabric.kits
+ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:20:9-22:43
+	android:value
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:22:13-40
+	android:name
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:21:13-42
+meta-data#io.fabric.InitializationType
+ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:23:9-25:41
+	android:value
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:25:13-38
+	android:name
+		ADDED from [:fabric] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/fabric/build/intermediates/manifests/full/release/AndroidManifest.xml:24:13-56
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:13:22-69
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:17:5-86
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:17:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:18:5-87
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:18:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:20:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:21:5-83
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:21:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:23:5-88
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:23:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:24:5-92
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:24:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:26:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:28:5-83
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:28:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:30:5-91
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:30:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:31:5-92
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:31:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:32:5-93
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:32:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:34:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:36:5-82
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:36:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:37:5-83
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:37:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:39:5-88
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:39:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:40:5-89
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:40:22-86
+activity#com.voxelbusters.nativeplugins.features.sharing.SharingActivity
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:47:9-49:60
+	android:theme
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:49:13-57
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:48:13-91
+activity#com.voxelbusters.nativeplugins.features.ui.UiActivity
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:51:9-53:60
+	android:theme
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:53:13-57
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:52:13-81
+activity#com.voxelbusters.nativeplugins.helpers.PermissionRequestActivity
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:55:9-57:60
+	android:theme
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:57:13-57
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:56:13-92
+provider#com.voxelbusters.nativeplugins.extensions.FileProviderExtended
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:59:9-67:20
+	android:grantUriPermissions
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:63:13-47
+	android:authorities
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:61:13-73
+	android:exported
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:60:13-90
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:64:13-66:68
+	android:resource
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:66:17-65
+	android:name
+		ADDED from [:native_plugins_lib] /Users/sheerinaseem/sources/Flags/Temp/gradleOut/native_plugins_lib/build/intermediates/manifests/full/release/AndroidManifest.xml:65:17-67
