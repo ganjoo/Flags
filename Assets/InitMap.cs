@@ -31,17 +31,25 @@ public class InitMap : MonoBehaviour {
 
     void SetColorButtons()
     {
+        GameObject color_btn = GameObject.Find("Color1");
+        GameObject parent = GameObject.Find("Colors");
 
+        Transform btn_transform = color_btn.transform;
         Texture2D t1 = TextureExtension.textureFromSprite(original_map.GetComponent<Image>().sprite);
         ColorFrugal[] colors_comparable = TextureExtension.GetMainColorsFromTexture(t1);
 
         Debug.Log("Colors found in original image:" + colors_comparable.Length);
+        
         for (int i = 0; i < colors_comparable.Length; ++i)
         {
-            string button_name = "Color" + (i+1).ToString();
-            GameObject btn = GameObject.Find(button_name);
-            btn.GetComponent<Image>().color = colors_comparable[i].ToColor32();
+   
+
+            //string button_name = "Color" + (i+1).ToString();
+            //GameObject btn = GameObject.Find(button_name);
+            GameObject colorbtn = Instantiate(color_btn);
+            colorbtn.GetComponent<Image>().color = colors_comparable[i].ToColor32();
             Debug.Log(colors_comparable[i].ToColor32());
+            colorbtn.transform.SetParent(parent.transform);
         }
     }
 	// Update is called once per frame
@@ -68,7 +76,7 @@ public class InitMap : MonoBehaviour {
         Texture2D t1 = TextureExtension.textureFromSprite(original_map.GetComponent<Image>().sprite);
         //Texture2D t2 = TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite);
 
-        return (TextureExtension.AreTexturesSameByColor(t1, current_texture,3000));
+        return (TextureExtension.AreTexturesSameByColor(t1, current_texture,10));
         
     }
 

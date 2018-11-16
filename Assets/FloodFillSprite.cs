@@ -31,11 +31,11 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
         int py = Mathf.Clamp(0, (int)(((localPoint.y - r.y) * tex.height) / r.height), tex.height);
         Color32 col = tex.GetPixel(px, py);
         Color32 color32 = tex.GetPixel(px, py);
-        Debug.Log("(LocalPoint X/Y:" + localPoint.x + ", " + localPoint.y + ")  ");
-        Debug.Log("(Rect X/Y:" + r.x + ", " + r.y + ")  ");
-        Debug.Log("(Rect W/H:" + r.width + ", " + r.height + ")  ");
-        Debug.Log("(Pixel X/Y:" + px + ", " + py + ")  ");
-        Debug.Log("(Texture W/H:" + tex.width + ", " + tex.height + ")  ");
+        //Debug.Log("(LocalPoint X/Y:" + localPoint.x + ", " + localPoint.y + ")  ");
+        //Debug.Log("(Rect X/Y:" + r.x + ", " + r.y + ")  ");
+        //Debug.Log("(Rect W/H:" + r.width + ", " + r.height + ")  ");
+        //Debug.Log("(Pixel X/Y:" + px + ", " + py + ")  ");
+        //Debug.Log("(Texture W/H:" + tex.width + ", " + tex.height + ")  ");
 
 
 

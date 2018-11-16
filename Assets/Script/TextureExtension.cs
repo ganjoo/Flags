@@ -212,10 +212,11 @@ public static class TextureExtension
         aTex.SetPixels(colors);
     }
 
-    public static bool AreTexturesSameByColor(Texture2D t1, Texture2D t2,int threshold_pixels)
+    public static bool AreTexturesSameByColor(Texture2D t1, Texture2D t2,int threshold_percentage)
     {
         Color32[] colors1 = t1.GetPixels32();
         Color32[] colors2 = t2.GetPixels32();
+        int threshold_pixels = (colors1.Length/100 * threshold_percentage) ;
         int diff_pixels = 0; //Count of different pixels;
         for (int i = 0; i < colors1.Length; ++i)
         {
@@ -232,7 +233,7 @@ public static class TextureExtension
                 diff_pixels++;
                 if (diff_pixels > threshold_pixels)
                 {
-                    Debug.Log(diff_pixels + " pixels differ");
+                    Debug.Log(diff_pixels + " pixels differ, threshold: " + threshold_pixels);
                     return false; //No need to process further pixels
                 }
 
@@ -241,7 +242,7 @@ public static class TextureExtension
         }
         if (diff_pixels < threshold_pixels)
         {
-            Debug.Log("Images match, only " + diff_pixels + " differ");
+            Debug.Log("Images match, only " + diff_pixels + " differ threshold: " + threshold_pixels);
             return true;
         }
             
@@ -337,7 +338,7 @@ public static class TextureExtension
 
         }
 
-        return GetHistogram(sArray,1200);
+        return GetHistogram(sArray,200);
     }
 
     public static ColorFrugal[] GetHistogram(ColorFrugal[] colors, int min_pixels)
