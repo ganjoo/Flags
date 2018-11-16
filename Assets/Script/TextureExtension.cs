@@ -212,7 +212,7 @@ public static class TextureExtension
         aTex.SetPixels(colors);
     }
 
-    public static bool AreTexturesSameByColor(Texture2D t1, Texture2D t2)
+    public static bool AreTexturesSameByColor(Texture2D t1, Texture2D t2,int threshold_pixels)
     {
         Color32[] colors1 = t1.GetPixels32();
         Color32[] colors2 = t2.GetPixels32();
@@ -230,16 +230,21 @@ public static class TextureExtension
             else
             {
                 diff_pixels++;
-                if (diff_pixels > 3000)
+                if (diff_pixels > threshold_pixels)
                 {
+                    Debug.Log(diff_pixels + " pixels differ");
                     return false; //No need to process further pixels
                 }
 
             }
             
         }
-        if (diff_pixels < 3000)
+        if (diff_pixels < threshold_pixels)
+        {
+            Debug.Log("Images match, only " + diff_pixels + " differ");
             return true;
+        }
+            
         else
             return false;
     }
@@ -320,29 +325,72 @@ public static class TextureExtension
         }
     }
 
-    public static Color32[] GetColorsFromTexture(Texture2D texture)
+    public static ColorFrugal[] GetMainColorsFromTexture(Texture2D texture)
     {
 
-        Color32[] sArray = texture.GetPixels32();
-        Debug.Log("Found Total colors:" + sArray.Length);
+        Color32[] colors = texture.GetPixels32();
+        Debug.Log("Found Total colors:" + colors.Length);
+        ColorFrugal[] sArray = new ColorFrugal[colors.Length];
+        for (int j = 0; j < colors.Length; ++j)
+        {
+            sArray[j] = new ColorFrugal(colors[j].r, colors[j].g, colors[j].b, colors[j].a);
+
+        }
+
+        return GetHistogram(sArray,1200);
+    }
+
+    public static ColorFrugal[] GetHistogram(ColorFrugal[] colors, int min_pixels)
+    {
+
+        SortedDictionary<ColorFrugal, int> histogram = new SortedDictionary<ColorFrugal, int>(new TypeComparer());
+        foreach (ColorFrugal item in colors)
+        {
+            if (histogram.ContainsKey(item))
+            {
+                histogram[item]++;
+            }
+            else
+            {
+                histogram[item] = 1;
+            }
+
+        }
 
         ArrayList sList = new ArrayList();
-
-        for (int i = 0; i < sArray.Length; i++)
+        foreach (KeyValuePair<ColorFrugal, int> pair in histogram)
         {
-            if (sList.Contains(sArray[i]) == false)
+
+            if(pair.Value > min_pixels)
             {
-                sList.Add(sArray[i]);
+                sList.Add(pair.Key);
+                Debug.Log(pair.Key);
+                Debug.Log(pair.Key + " occurred " + pair.Value + "times");
             }
+            
         }
-        Debug.Log("Found colors:" + sList.Count);
 
-        Color32[] sNew = sList.ToArray(typeof(Color32)) as Color32[];
-        Debug.Log(sNew.Length);
-        for (int i = 0; i < sNew.Length; i++)
-        {
-            //Debug.Log(sNew[i]);
-        }
-        return sNew;
+        ColorFrugal[] main_colors = sList.ToArray(typeof(ColorFrugal)) as ColorFrugal[];
+        return main_colors;
+
+    }
+}
+
+public class TypeComparer : IComparer<ColorFrugal>
+{
+    public int Compare(ColorFrugal x, ColorFrugal y)
+    {
+        if (x != null && y != null)
+            return Equals(x, y);
+       
+        return 0;
+    }
+
+    public int Equals(ColorFrugal c1, ColorFrugal c2)
+    {
+        if (c1.r.Equals(c2.r) && c1.g.Equals(c2.g) && c1.b.Equals(c2.b) && c1.a.Equals(c2.a))
+            return 0;
+        else
+            return -1;
     }
 }

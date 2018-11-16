@@ -11,7 +11,7 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
     private Vector3 screenPoint;
     private Vector3 offset;
     public GameObject editable_map;
-    //Texture2D texture;
+    public Texture2D tex;
     // Use this for initialization
     void Start() {
         //Sprite sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
@@ -23,7 +23,7 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
     //Detect current clicks on the GameObject (the one with the script attached)
     public void OnPointerDown(PointerEventData pointerEventData)
     {
-        Texture2D tex = editable_map.GetComponent<Image>().sprite.texture;
+        tex = TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite);
         Rect r = editable_map.GetComponent<RectTransform>().rect;
         Vector2 localPoint;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(editable_map.GetComponent<RectTransform>(), Input.mousePosition, null, out localPoint);
@@ -35,19 +35,18 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
         Debug.Log("(Rect X/Y:" + r.x + ", " + r.y + ")  ");
         Debug.Log("(Rect W/H:" + r.width + ", " + r.height + ")  ");
         Debug.Log("(Pixel X/Y:" + px + ", " + py + ")  ");
-
-        Texture2D texture = TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite);
-        Debug.Log("(Texture W/H:" + texture.width + ", " + texture.height + ")  ");
+        Debug.Log("(Texture W/H:" + tex.width + ", " + tex.height + ")  ");
 
 
-       
-        texture.FloodFillAreaWithTolerance(px, py, ColorStatus.current_color,ColorStatus.flood_fill_tolerance);
-        //texture.DrawRectangle(new Rect(px, (texture.height - py), 20, 20), Color.red);
-        texture.Apply();
-        if (gameObject.GetComponent<InitMap>().AreImagesMatching())
+
+        tex.FloodFillAreaWithTolerance(px, py, ColorStatus.current_color,ColorStatus.flood_fill_tolerance);
+        //texture.DrawRectangle(new Rect(px, (tex.height - py), 20, 20), Color.red);
+        tex.Apply();
+        if (gameObject.GetComponent<InitMap>().AreImagesMatching(tex))
         {
             Debug.Log("Yohooooo");
         }
+        //editable_map.GetComponent<Image>().sprite = tex;
     }
 
 
