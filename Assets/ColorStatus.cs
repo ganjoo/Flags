@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ColorStatus : MonoBehaviour {
 
@@ -32,8 +33,8 @@ public class ColorStatus : MonoBehaviour {
 
     public void OnClicked(Button button)
     {
-        GameObject btn = GameObject.Find(button.name);
-        var color = btn.GetComponent<Image>().color;
+        //GameObject btn = GameObject.Find(button.name);
+        var color = button.GetComponent<Image>().color;
         ColorStatus.current_color = color;
         GameObject selected_color = GameObject.Find("selected_color");
         selected_color.GetComponent<Image>().color = ColorStatus.current_color;
@@ -41,5 +42,9 @@ public class ColorStatus : MonoBehaviour {
         Debug.Log("Object clicked " + ColorSprite.current_color);
     }
 
-   
+       public void OnNextScene(Button button)
+    {
+        string next_scene = (button.name);
+        SceneManager.LoadScene(next_scene);
+    }
 }

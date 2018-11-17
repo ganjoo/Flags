@@ -8,6 +8,11 @@ public class InitMap : MonoBehaviour {
 
     private GameObject original_map;
     private GameObject editable_map;
+    public int min_pixels_per_color;
+    public int min_matching_percentage;
+
+    public Sprite Initial_State;
+    private Texture2D Initial_Texture;
 
     // Use this for initialization
     void Start () {
@@ -16,19 +21,37 @@ public class InitMap : MonoBehaviour {
         original_map.SetActive(false);
         editable_map.SetActive(true);       
         SetColorButtons();
+
+        Initial_Texture = new Texture2D((int)editable_map.GetComponent<Image>().sprite.rect.width, (int)editable_map.GetComponent<Image>().sprite.rect.height,
+            TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite).format,false);
+        Graphics.CopyTexture(TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite), Initial_Texture);
+        Initial_Texture.Apply();
+        Reset();
+        
+
     }
 
     void SetColorButtons()
     {
+        GameObject color_btn = GameObject.Find("Color1");
+        GameObject parent = GameObject.Find("Colors");
+
+        Transform btn_transform = color_btn.transform;
         Texture2D t1 = TextureExtension.textureFromSprite(original_map.GetComponent<Image>().sprite);
-        Color32[] colors = TextureExtension.GetColorsFromTexture(t1);
-        Debug.Log("Colors found in original image:" + colors.Length);
-        for(int i = 0; i < colors.Length; ++i)
+        Color[] colors_comparable = TextureExtension.GetMainColorsFromTexture2(t1,min_pixels_per_color);
+
+        Debug.Log("Colors found in original image:" + colors_comparable.Length);
+        
+        for (int i = 0; i < colors_comparable.Length; ++i)
         {
-            string button_name = "Color" + (i+1).ToString();
-            GameObject btn = GameObject.Find(button_name);
-            btn.GetComponent<Image>().color = colors[0];
-            Debug.Log(colors[0]);
+   
+
+            //string button_name = "Color" + (i+1).ToString();
+            //GameObject btn = GameObject.Find(button_name);
+            GameObject colorbtn = Instantiate(color_btn);
+            colorbtn.GetComponent<Image>().color = colors_comparable[i];// colors_comparable[i].ToColor32();
+            Debug.Log(colors_comparable[i]);
+            colorbtn.transform.SetParent(parent.transform);
         }
     }
 	// Update is called once per frame
@@ -44,17 +67,24 @@ public class InitMap : MonoBehaviour {
         StartCoroutine("FlashHint");
     }
 
-    public  bool AreImagesMatching()
+    public void Reset()
+    {
+        editable_map.GetComponent<Image>().sprite = Sprite.Create(Initial_Texture, new Rect(0.0f, 0.0f, Initial_Texture.width, Initial_Texture.height), new Vector2(0.0f, 0.0f));
+        Initial_Texture.Apply();
+    }
+
+    public  bool AreImagesMatching(Texture2D current_texture)
     {
         Texture2D t1 = TextureExtension.textureFromSprite(original_map.GetComponent<Image>().sprite);
-        Texture2D t2 = TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite);
+        //Texture2D t2 = TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite);
 
-        return (TextureExtension.AreTexturesSameByColor(t1, t2));
+        return (TextureExtension.AreTexturesSameByColor(t1, current_texture, min_matching_percentage));
         
     }
 
     IEnumerator FlashHint()
     {
+        //AreImagesMatching();
         int current_time = 0;
         while (current_time < 3 )
         {
