@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{EFE5A7D6-EE6B-3D8C-0CF6-AFA28A9A26A9}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Fabric/Editor/FabricUtils.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SplashScreenDelay.cs">
     <Files>
       <File FileName="Assets/Script/GoogleMobileAdsDemoScript.cs" Line="77" Column="1" />
       <File FileName="Assets/Script/FBLogin.cs" Line="4" Column="1" />

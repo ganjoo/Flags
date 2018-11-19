@@ -1,4 +1,0 @@
-#Fri Nov 16 18:34:56 IST 2018
-base.0=/Users/sheerinaseem/sources/Flags/Temp/gradleOut/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
